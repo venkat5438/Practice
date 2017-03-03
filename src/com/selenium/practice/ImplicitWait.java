@@ -22,7 +22,7 @@ public class ImplicitWait {
 		driver.findElement(By.xpath("//input[@id='email']")).clear();
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("venkatramreddy108@gmail.com");
 		driver.findElement(By.xpath("//input[@id='pass']")).clear();
-		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("raghuchintu");
+		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("123456");
 		driver.findElement(By.id("u_0_q")).click();
 		driver.manage().window().maximize();
 	    System.out.println(text);
