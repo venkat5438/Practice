@@ -21,7 +21,7 @@ public class PopUpHandle {
 		
 		Popup=driver.switchTo().alert().getText();
 		
-		driver.switchTo().alert().accept();
+		driver.switchTo().alert().accept(); // accepting the alert  we have so many funtions here
 		System.out.println(Popup);
 		driver.quit();
 		
